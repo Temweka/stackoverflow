@@ -20,7 +20,7 @@ def clean_data(df):
     2. Create X as all the columns that are not the Salary column
     3. Create y as the Salary column
     4. Drop the Salary, Respondent, and the ExpectedSalary columns
-    5. For each numeric variable, fill the column with the mean value.
+    5. For each numeric variable, fill the column with the mean value in place of missing values.
     6. Create dummy columns for all the categorical variables, drop the original columns
     '''
     # Drop rows with missing salary values
